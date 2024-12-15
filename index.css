@@ -1,0 +1,120 @@
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+*{
+    
+    margin: 0 auto;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+h1{
+    color: #000000;
+    text-align: left;
+    font-size: 8vmax;
+    font-weight: 900;
+    line-height: 90%;
+}
+h2{
+    color: #485FCC;
+    margin: 5vmax auto;
+    text-align: center;
+    font-size: 1vmax;
+    font-weight: 600;
+    line-height: 150%;
+}
+h2 p{
+    color: #CD7748;
+    margin: 1vmax auto;
+    text-align: center;
+    font-size: 1vmax;
+    font-weight: 600;
+    line-height: 150%;
+}
+h3{
+    text-align: left;
+    font-size: 3vmax;
+    font-weight: 800;
+}
+h4{
+    text-align: left;
+    font-size: 2vmax;
+    font-weight: 300;
+}
+h5{
+    text-align: left;
+    font-size: 0.8vmax;
+    font-weight: 300;
+    line-height: 130%;
+}
+h6{
+    text-align: left;
+    font-size: 0.8vmax;
+    line-height: 200%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #BAD1E7, #DEEFFF 100%);
+    background-repeat: no-repeat;
+    height: 90vmax;
+    background-color: #DEEFFF;
+}
+
+
+.headBox{
+    display: block;
+    width: 70vmax;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vmax;
+    margin-bottom: 1vmax;
+}
+.btns a {color: #0d0f17; text-decoration-line:none;}
+.btns h3{color: #000000;font-size: 35px;}
+.btns a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 1vmax #071746;  
+    transform: scaleX(0) scaleY(0);  
+    transition: transform 100ms ease-in-out;
+}
+.btns a:hover:after {transform: scaleX(1) scaleY(1);}
+
+.mainBox {
+    display: block;
+    width: 70vmax;
+}
+.contentBox1{
+    padding-top: 5vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.contentBox{
+    padding: 5vmax 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+h3{color: #485FCC;}  h4{color: #485FCC;}  h6{color: #CD7748;}
+/*#cont2 h3{color: #DFBB6E;} #cont2 h4{color: #DFBB6E;} #cont2 h6{color: #DFBB6E;}
+#cont3 h3{color: #527920;} #cont3 h4{color: #527920;} #cont3 h6{color: #527920;}
+#cont4 h3{color: #43619B;} #cont4 h4{color: #43619B;} #cont4 h6{color: #43619B;}
+#cont5 h3{color: #CD7748;} #cont5 h4{color: #CD7748;} #cont5 h6{color: #CD7748;}*/
+
+.imgBox{
+    width: 45%;
+    height: 50%;
+}
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.textBox{
+    margin: 0 2vmax;
+    width: 45%;
+}
